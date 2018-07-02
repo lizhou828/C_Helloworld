@@ -3,4 +3,4 @@ project(helloWorld C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(helloWorld main.c test1.c)
+add_executable(helloWorld main.c test1.c test2.c src/2018-06-exam/exam.c)
