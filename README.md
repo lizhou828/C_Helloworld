@@ -1,6 +1,6 @@
 # C_Helloworld
     
-    ![C语言代码执行流程](https://github.com/lizhou828/C_Helloworld/blob/master/data/C%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.png "C语言代码执行流程图")
+![C语言代码执行的流程图](https://github.com/lizhou828/C_Helloworld/blob/master/data/C%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.png "C语言代码执行流程图")
 
 
 ## C语言是啥？能干啥？
