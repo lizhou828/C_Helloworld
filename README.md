@@ -22,8 +22,8 @@
 ## 二、 C语言入门的一些常识
 
     在C语言当中，一个程序，无论复杂或简单，总体上都是一个“函数”；这个函数就称为“main() 函数(有且只有一个main函数.)”，也就是“主函数”。比如有个“做菜”程序，那么“ 做菜 ”这个过程就是“主函数”。在主函数中，根据情况，你可能还需要调用“买菜，切菜，炒菜”等子函数。
-    详情请访问：
-![C语言入门基本常识](https://github.com/lizhou828/C_Helloworld/blob/master/data/C%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E6%9C%AC%E5%B8%B8%E8%AF%86.md "C语言入门基本常识")
+    详情请访问： 
+[C语言入门基本常识](https://github.com/lizhou828/C_Helloworld/blob/master/data/C%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E6%9C%AC%E5%B8%B8%E8%AF%86.md "C语言入门基本常识")
 
 
 ## 三、 C和C++的联系与区别
