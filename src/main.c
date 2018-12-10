@@ -1,12 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <mem.h>
+
 //#include <test1.c>
 
 //extern用在变量或函数的声明前，用来说明“此变量/函数是在别处定义的，要在此处引用”。
 extern int sum(int a ,int b);
 extern void calc();
 extern void calcChar();
+
+//递归打印
+void diguiPrint(int i){
+    if(i == 0){
+        return;
+    }
+    for(int j = i; j > 0; j--){
+        printf("%d",i);
+        printf(" ");
+    }
+    printf("\n");
+    i--;
+    diguiPrint(i);
+}
 
 
 void func(int a,int b){
@@ -171,8 +186,8 @@ int main() {
 //        int age;
 //    }stu[3]={{1001,20},{1002,19},{1003,21}},*p=stu;
 //    printf("%d",(*++p).num);
-
-
+    printf("\n");
+    diguiPrint(4);
     return 0;
 
 

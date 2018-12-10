@@ -37,7 +37,7 @@ void createList_L(LinkList L, int n ){
     L->next = NULL;
     for(int i = n;i > 0; --i){
         LinkList p = (LinkList)malloc(sizeof(LNode)); // 生成新节点
-        scanf(&p->data);                               // 输入元素值
+        scanf((const char *) &p->data);                               // 输入元素值
         p->next = NULL;L->next = p;                   // 新生成的元素，插入到头节点之后
     }
 }
